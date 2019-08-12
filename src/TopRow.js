@@ -2,7 +2,7 @@ import React from "react";
 import BottomRow from "./BottomRow";
 import "./App.css";
 
-const TopRow = () => {
+const TopRow = (homeScore, awayScore) => {
   return (
     <section className="scoreboard">
         <div className="topRow">
