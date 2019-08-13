@@ -1,5 +1,6 @@
 import React from "react";
 import BottomRow from "./BottomRow";
+import Buttons, { homeScore, awayScore} from "./Buttons";
 import "./App.css";
 
 const TopRow = (homeScore, awayScore) => {
